@@ -1,0 +1,14 @@
+# Credentials — never commit
+.env
+
+# Run artifacts (product dumps, rewrites, checkpoints, captures)
+work/
+capture_sections/
+build_state.json
+checkpoint.json
+*.mhtml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
